@@ -18,3 +18,28 @@ p.fright:hover{
 .fleft:hover{
     float: right;
 }
+.maintcontainer{
+    display: table;
+    width: 100%;
+}
+.leftcol{
+    background-color: aqua;
+    width: 25%;
+    padding: 20px;
+    border-style: groove;
+    display: table-cell;
+}
+.maincontent{
+    background-color: goldenrod;
+    width: 50%;
+    padding: 20px;
+    border-style: groove;
+    display: table-cell;
+}
+.rightcol{
+    background-color: plum;
+    width: 25%;
+    padding: 20px;
+    border-style: groove;
+    display: table-cell;
+}
